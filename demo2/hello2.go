@@ -6,4 +6,9 @@ import "fmt"
 //     那么如何找到正确版本，通过 replace 为使用者指引到该 go 包的正确位置
 func Hello2() {
 	fmt.Println("this is Hello-2 from demo2 project")
+	V1_demo2_new_func()
+}
+
+func V1_demo2_new_func() {
+	fmt.Println("this is v1-new-feature from demo2!")
 }
