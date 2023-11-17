@@ -1,3 +1,4 @@
+// github.com/oceanweave/hello 是项目名
 module github.com/oceanweave/hello
 
 go 1.21.4
